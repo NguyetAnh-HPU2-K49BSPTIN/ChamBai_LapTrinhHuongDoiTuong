@@ -1,34 +1,20 @@
-"C:\Program Files\JetBrains\CLion 2023.3.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.3.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S "E:\DNU\Chương 1.Giới thiệu ngôn ngữ lập trình C++" -B "E:\DNU\Chương 1.Giới thiệu ngôn ngữ lập trình C++\cmake-build-debug"
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "E:\ChamBai\Chương 1.Giới thiệu ngôn ngữ lập trình C++" -B "E:\ChamBai\Chương 1.Giới thiệu ngôn ngữ lập trình C++\cmake-build-debug"
 -- The C compiler identification is GNU 13.1.0
 -- The CXX compiler identification is GNU 13.1.0
 -- Detecting C compiler ABI info
-CMake Error:
-  Running
-
-   'C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/x64/ninja.exe' '-C' 'E:/DNU/Chương 1.Giới thiệu ngôn ngữ lập trình C++/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fj048s' '-t' 'recompact'
-
-  failed with:
-
-   ninja: fatal: chdir to 'E:/DNU/Chuong 1.Gi?i thi?u ng⌠n ng? l?p tr∞nh C++/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fj048s' - Invalid argument
-
-
-
-CMake Error:
-  Running
-
-   'C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/ninja/win/x64/ninja.exe' '-C' 'E:/DNU/Chương 1.Giới thiệu ngôn ngữ lập trình C++/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fj048s' '-t' 'restat' 'build.ninja'
-
-  failed with:
-
-   ninja: fatal: chdir to 'E:/DNU/Chuong 1.Gi?i thi?u ng⌠n ng? l?p tr∞nh C++/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fj048s' - Invalid argument
-
-
-
-CMake Error at C:/Program Files/JetBrains/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile):
-  Failed to generate test project build system.
-Call Stack (most recent call first):
-  C:/Program Files/JetBrains/CLion 2023.3.1/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)
-  CMakeLists.txt:2 (project)
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:6 (add_executable):
+  The target name "Chng_1_Gii_thiu_ngôn_ng_lp_trình_C__" is reserved or not
+  valid for certain CMake features, such as generator expressions, and may
+  result in undefined behavior.
 
 
 -- Configuring incomplete, errors occurred!
